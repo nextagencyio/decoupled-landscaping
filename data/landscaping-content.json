@@ -1,0 +1,335 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Landing page with hero section, statistics, and call-to-action areas",
+      "fields": [
+        { "id": "hero_title", "label": "Hero Title", "type": "string" },
+        { "id": "hero_subtitle", "label": "Hero Subtitle", "type": "string" },
+        { "id": "hero_description", "label": "Hero Description", "type": "text" },
+        { "id": "stats_items", "label": "Statistics", "type": "paragraph(stat_item)[]" },
+        { "id": "featured_items_title", "label": "Featured Items Title", "type": "string" },
+        { "id": "cta_title", "label": "CTA Title", "type": "string" },
+        { "id": "cta_description", "label": "CTA Description", "type": "text" },
+        { "id": "cta_primary", "label": "Primary CTA", "type": "string" },
+        { "id": "cta_secondary", "label": "Secondary CTA", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "service",
+      "label": "Service",
+      "description": "A landscaping service offered by the company",
+      "body": true,
+      "fields": [
+        { "id": "summary", "label": "Summary", "type": "string" },
+        { "id": "price_range", "label": "Price Range", "type": "string" },
+        { "id": "duration", "label": "Typical Duration", "type": "string" },
+        { "id": "image", "label": "Service Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "project",
+      "label": "Project",
+      "description": "A completed landscaping project showcase",
+      "body": true,
+      "fields": [
+        { "id": "client_name", "label": "Client Name", "type": "string" },
+        { "id": "location", "label": "Location", "type": "string" },
+        { "id": "project_type", "label": "Project Type", "type": "string" },
+        { "id": "completion_date", "label": "Completion Date", "type": "datetime" },
+        { "id": "image", "label": "Project Image", "type": "image" },
+        { "id": "gallery", "label": "Project Gallery", "type": "image[]" }
+      ]
+    },
+    {
+      "bundle": "testimonial",
+      "label": "Testimonial",
+      "description": "A customer testimonial and review",
+      "body": true,
+      "fields": [
+        { "id": "client_name", "label": "Client Name", "type": "string!" },
+        { "id": "client_location", "label": "Client Location", "type": "string" },
+        { "id": "rating", "label": "Rating", "type": "integer" },
+        { "id": "service_received", "label": "Service Received", "type": "string" },
+        { "id": "photo", "label": "Client Photo", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages for about, contact, policies, etc.",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "A single statistic with number and label",
+      "fields": [
+        { "id": "number", "label": "Number", "type": "string!" },
+        { "id": "label", "label": "Label", "type": "string!" }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-years",
+      "type": "paragraph.stat_item",
+      "values": { "number": "25+", "label": "Years of Experience" }
+    },
+    {
+      "id": "stat-projects",
+      "type": "paragraph.stat_item",
+      "values": { "number": "3,200+", "label": "Projects Completed" }
+    },
+    {
+      "id": "stat-clients",
+      "type": "paragraph.stat_item",
+      "values": { "number": "1,800+", "label": "Happy Clients" }
+    },
+    {
+      "id": "stat-awards",
+      "type": "paragraph.stat_item",
+      "values": { "number": "14", "label": "Industry Awards" }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Evergreen Landscapes",
+        "hero_title": "Transform Your Outdoor Space",
+        "hero_subtitle": "Professional Landscaping & Design Since 1999",
+        "hero_description": "<p>From concept to completion, Evergreen Landscapes creates stunning outdoor environments that reflect your vision. Our team of certified designers and skilled craftsmen bring artistry and precision to every project.</p>",
+        "stats_items": ["@stat-years", "@stat-projects", "@stat-clients", "@stat-awards"],
+        "featured_items_title": "Our Services",
+        "cta_title": "Ready to Transform Your Property?",
+        "cta_description": "<p>Schedule a free on-site consultation and let our design team show you what's possible. We'll walk your property, listen to your vision, and present a custom plan that fits your budget.</p>",
+        "cta_primary": "Get a Free Quote",
+        "cta_secondary": "View Our Work"
+      }
+    },
+    {
+      "id": "service-design",
+      "type": "node.service",
+      "path": "/services/landscape-design",
+      "values": {
+        "title": "Landscape Design",
+        "body": "<p>Our landscape architects create comprehensive designs that balance beauty, function, and sustainability. Using 3D modeling and plant science expertise, we develop plans that account for soil conditions, sun exposure, drainage, and your long-term maintenance preferences.</p><h2>What's Included</h2><ul><li>On-site property assessment and soil analysis</li><li>3D rendered design concepts</li><li>Plant selection and placement planning</li><li>Irrigation and lighting integration</li><li>Phased implementation roadmap</li></ul>",
+        "summary": "Custom landscape architecture with 3D renderings and phased implementation plans.",
+        "price_range": "$2,500 - $15,000",
+        "duration": "2-4 weeks",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80",
+          "alt": "Beautifully designed landscape with stone pathway and garden beds",
+          "title": "Landscape Design"
+        }
+      }
+    },
+    {
+      "id": "service-hardscape",
+      "type": "node.service",
+      "path": "/services/hardscaping",
+      "values": {
+        "title": "Hardscaping & Stonework",
+        "body": "<p>Create lasting outdoor structures with our expert hardscaping services. From elegant patios and retaining walls to custom fire pits and outdoor kitchens, our masons work with natural stone, pavers, and concrete to build features that stand the test of time.</p><h2>Our Hardscape Services</h2><ul><li>Patios and walkways</li><li>Retaining walls and terracing</li><li>Outdoor kitchens and fire features</li><li>Water features and fountains</li><li>Driveways and parking areas</li></ul>",
+        "summary": "Patios, retaining walls, fire pits, outdoor kitchens, and custom stonework.",
+        "price_range": "$5,000 - $75,000",
+        "duration": "1-6 weeks",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+          "alt": "Stone patio with outdoor seating area surrounded by landscaping",
+          "title": "Hardscaping & Stonework"
+        }
+      }
+    },
+    {
+      "id": "service-maintenance",
+      "type": "node.service",
+      "path": "/services/lawn-maintenance",
+      "values": {
+        "title": "Lawn Care & Maintenance",
+        "body": "<p>Keep your property looking its best year-round with our comprehensive maintenance programs. Our trained crews handle mowing, edging, fertilization, aeration, and seasonal clean-ups so you can enjoy your outdoor space without the work.</p><h2>Maintenance Plans</h2><ul><li>Weekly mowing and edging</li><li>Seasonal fertilization program</li><li>Core aeration and overseeding</li><li>Spring and fall clean-ups</li><li>Shrub and tree pruning</li></ul>",
+        "summary": "Weekly mowing, fertilization, seasonal clean-ups, and comprehensive lawn health programs.",
+        "price_range": "$150 - $500/month",
+        "duration": "Ongoing",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=800&q=80",
+          "alt": "Perfectly maintained green lawn with trimmed hedges",
+          "title": "Lawn Care & Maintenance"
+        }
+      }
+    },
+    {
+      "id": "service-irrigation",
+      "type": "node.service",
+      "path": "/services/irrigation-systems",
+      "values": {
+        "title": "Irrigation Systems",
+        "body": "<p>Efficient watering is essential for a healthy landscape. We design and install smart irrigation systems that deliver the right amount of water to each zone, reducing waste and keeping your plants thriving through every season.</p><h2>System Features</h2><ul><li>Smart controller with weather-based adjustments</li><li>Drip and spray zone design</li><li>Rain sensors and moisture monitors</li><li>Seasonal system maintenance</li><li>Winterization and spring start-up</li></ul>",
+        "summary": "Smart irrigation design, installation, and seasonal maintenance programs.",
+        "price_range": "$3,000 - $12,000",
+        "duration": "3-5 days",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+          "alt": "Garden sprinkler system watering a green lawn",
+          "title": "Irrigation Systems"
+        }
+      }
+    },
+    {
+      "id": "project-estate-garden",
+      "type": "node.project",
+      "path": "/projects/willow-creek-estate",
+      "values": {
+        "title": "Willow Creek Estate Garden",
+        "body": "<p>A complete transformation of a two-acre estate property featuring formal gardens, a natural swimming pool, and extensive native plantings. The design integrates the existing mature oak trees with new garden rooms that unfold as visitors explore the grounds.</p><p>The project included a custom stone terrace with built-in seating, a cutting garden for fresh flowers, and a meditation garden with a Japanese-inspired water feature.</p>",
+        "client_name": "The Henderson Family",
+        "location": "Westchester County, NY",
+        "project_type": "Full Estate Landscaping",
+        "completion_date": "2025-09-15T00:00:00",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+          "alt": "Expansive estate garden with manicured lawns and stone pathways",
+          "title": "Willow Creek Estate Garden"
+        },
+        "gallery": [
+          {
+            "uri": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+            "alt": "Stone terrace with outdoor seating",
+            "title": "Estate Terrace"
+          },
+          {
+            "uri": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80",
+            "alt": "Garden pathway lined with flowering plants",
+            "title": "Garden Pathway"
+          }
+        ]
+      }
+    },
+    {
+      "id": "project-rooftop",
+      "type": "node.project",
+      "path": "/projects/skyline-rooftop-garden",
+      "values": {
+        "title": "Skyline Rooftop Garden",
+        "body": "<p>An urban oasis built on a 4,000-square-foot commercial rooftop. We designed a wind-resistant planting scheme with drought-tolerant ornamental grasses, evergreen shrubs, and seasonal perennials in custom raised planters with integrated irrigation.</p><p>The space includes a dining area, a lounge with fire table, and a private garden nook. All plantings were selected for their tolerance to rooftop conditions including wind exposure and temperature extremes.</p>",
+        "client_name": "Metro Development Group",
+        "location": "Brooklyn, NY",
+        "project_type": "Rooftop Garden",
+        "completion_date": "2025-06-20T00:00:00",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+          "alt": "Rooftop garden with city skyline views",
+          "title": "Skyline Rooftop Garden"
+        },
+        "gallery": [
+          {
+            "uri": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+            "alt": "Rooftop planters with ornamental grasses",
+            "title": "Rooftop Planters"
+          }
+        ]
+      }
+    },
+    {
+      "id": "project-pool",
+      "type": "node.project",
+      "path": "/projects/cedar-ridge-pool-landscape",
+      "values": {
+        "title": "Cedar Ridge Pool Landscape",
+        "body": "<p>A resort-inspired pool surround featuring natural stone coping, a custom spa, and lush tropical plantings. The design created distinct zones for sunbathing, dining, and relaxation while maintaining privacy with strategic screening plants.</p><p>A pergola with climbing wisteria provides shade over the outdoor dining area, and landscape lighting extends the usability of the space well into the evening hours.</p>",
+        "client_name": "The Martins",
+        "location": "Greenwich, CT",
+        "project_type": "Pool & Patio Design",
+        "completion_date": "2025-07-30T00:00:00",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+          "alt": "Beautiful pool area surrounded by lush landscaping",
+          "title": "Cedar Ridge Pool Landscape"
+        },
+        "gallery": [
+          {
+            "uri": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+            "alt": "Evening view of illuminated pool landscape",
+            "title": "Pool at Night"
+          }
+        ]
+      }
+    },
+    {
+      "id": "testimonial-johnson",
+      "type": "node.testimonial",
+      "path": "/testimonials/johnson-family",
+      "values": {
+        "title": "A Backyard We Actually Use Now",
+        "body": "<p>We had a boring flat yard that we never spent time in. Evergreen completely reimagined the space with a paver patio, fire pit area, and beautiful perennial borders. Now we're outside every evening. Our neighbors keep asking who did the work!</p>",
+        "client_name": "David & Lisa Johnson",
+        "client_location": "Stamford, CT",
+        "rating": 5,
+        "service_received": "Full Backyard Renovation",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+          "alt": "David Johnson",
+          "title": "David Johnson"
+        }
+      }
+    },
+    {
+      "id": "testimonial-chen",
+      "type": "node.testimonial",
+      "path": "/testimonials/chen-family",
+      "values": {
+        "title": "Professional From Start to Finish",
+        "body": "<p>The design process was incredibly thorough. They showed us 3D renderings before starting, which really helped us visualize the final result. The crew was respectful of our property, cleaned up every day, and delivered exactly what was promised. Highly recommend their landscape design services.</p>",
+        "client_name": "Michelle Chen",
+        "client_location": "Rye, NY",
+        "rating": 5,
+        "service_received": "Landscape Design & Installation",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+          "alt": "Michelle Chen",
+          "title": "Michelle Chen"
+        }
+      }
+    },
+    {
+      "id": "testimonial-murphy",
+      "type": "node.testimonial",
+      "path": "/testimonials/murphy-residence",
+      "values": {
+        "title": "Our Lawn Has Never Looked Better",
+        "body": "<p>After years of struggling with bare patches and weeds, we signed up for Evergreen's maintenance plan. Within one season, our lawn was the greenest on the block. Their fertilization program and consistent care made all the difference. Worth every penny.</p>",
+        "client_name": "Tom Murphy",
+        "client_location": "White Plains, NY",
+        "rating": 5,
+        "service_received": "Lawn Care & Maintenance",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80",
+          "alt": "Tom Murphy",
+          "title": "Tom Murphy"
+        }
+      }
+    },
+    {
+      "id": "about-page",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Evergreen Landscapes",
+        "body": "<p>Founded in 1999 by master landscaper Robert Greenfield, Evergreen Landscapes has grown from a small lawn care operation into one of the region's most respected full-service landscaping companies. Our team of 45 professionals includes certified landscape architects, horticulturists, and skilled craftsmen.</p><h2>Our Philosophy</h2><p>We believe every outdoor space has untapped potential. Our approach combines artistic design with horticultural science to create landscapes that are beautiful, sustainable, and tailored to each client's lifestyle. We use native and adapted plants whenever possible to reduce water usage and support local ecosystems.</p><h2>Certifications</h2><p>Our team holds certifications from the National Association of Landscape Professionals, the Irrigation Association, and the Interlocking Concrete Pavement Institute. We are fully licensed and insured in New York, Connecticut, and New Jersey.</p>"
+      }
+    },
+    {
+      "id": "contact-page",
+      "type": "node.page",
+      "path": "/contact",
+      "values": {
+        "title": "Contact Us",
+        "body": "<p>Ready to start your landscaping project? We'd love to hear from you. Schedule a free consultation or reach out with any questions.</p><h2>Office Hours</h2><p>Monday - Friday: 7:00 AM - 5:00 PM<br/>Saturday: 8:00 AM - 12:00 PM<br/>Sunday: Closed</p><h2>Location</h2><p>Evergreen Landscapes<br/>342 Oak Ridge Road<br/>Armonk, NY 10504</p><h2>Get in Touch</h2><p>Phone: (914) 555-0247<br/>Email: info@evergreenlandscapes.com</p>"
+      }
+    }
+  ]
+}

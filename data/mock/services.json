@@ -1,0 +1,165 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-design",
+          "title": "Landscape Design",
+          "path": "/services/landscape-design",
+          "body": {
+            "processed": "<p>Our landscape architects create comprehensive designs that balance beauty, function, and sustainability. Using 3D modeling and plant science expertise, we develop plans that account for soil conditions, sun exposure, drainage, and your long-term maintenance preferences.</p><h2>What's Included</h2><ul><li>On-site property assessment and soil analysis</li><li>3D rendered design concepts</li><li>Plant selection and placement planning</li><li>Irrigation and lighting integration</li><li>Phased implementation roadmap</li></ul>",
+            "summary": "Our landscape architects create comprehensive designs that balance beauty, function, and sustainability. Using 3D modeling and plant science expertise, we develop plans that account for soil condition"
+          },
+          "summary": "Custom landscape architecture with 3D renderings and phased implementation plans.",
+          "priceRange": "$2,500 - $15,000",
+          "duration": "2-4 weeks",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80",
+            "alt": "Beautifully designed landscape with stone pathway and garden beds",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-hardscape",
+          "title": "Hardscaping & Stonework",
+          "path": "/services/hardscaping",
+          "body": {
+            "processed": "<p>Create lasting outdoor structures with our expert hardscaping services. From elegant patios and retaining walls to custom fire pits and outdoor kitchens, our masons work with natural stone, pavers, and concrete to build features that stand the test of time.</p><h2>Our Hardscape Services</h2><ul><li>Patios and walkways</li><li>Retaining walls and terracing</li><li>Outdoor kitchens and fire features</li><li>Water features and fountains</li><li>Driveways and parking areas</li></ul>",
+            "summary": "Create lasting outdoor structures with our expert hardscaping services. From elegant patios and retaining walls to custom fire pits and outdoor kitchens, our masons work with natural stone, pavers, an"
+          },
+          "summary": "Patios, retaining walls, fire pits, outdoor kitchens, and custom stonework.",
+          "priceRange": "$5,000 - $75,000",
+          "duration": "1-6 weeks",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+            "alt": "Stone patio with outdoor seating area surrounded by landscaping",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-maintenance",
+          "title": "Lawn Care & Maintenance",
+          "path": "/services/lawn-maintenance",
+          "body": {
+            "processed": "<p>Keep your property looking its best year-round with our comprehensive maintenance programs. Our trained crews handle mowing, edging, fertilization, aeration, and seasonal clean-ups so you can enjoy your outdoor space without the work.</p><h2>Maintenance Plans</h2><ul><li>Weekly mowing and edging</li><li>Seasonal fertilization program</li><li>Core aeration and overseeding</li><li>Spring and fall clean-ups</li><li>Shrub and tree pruning</li></ul>",
+            "summary": "Keep your property looking its best year-round with our comprehensive maintenance programs. Our trained crews handle mowing, edging, fertilization, aeration, and seasonal clean-ups so you can enjoy yo"
+          },
+          "summary": "Weekly mowing, fertilization, seasonal clean-ups, and comprehensive lawn health programs.",
+          "priceRange": "$150 - $500/month",
+          "duration": "Ongoing",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=800&q=80",
+            "alt": "Perfectly maintained green lawn with trimmed hedges",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-irrigation",
+          "title": "Irrigation Systems",
+          "path": "/services/irrigation-systems",
+          "body": {
+            "processed": "<p>Efficient watering is essential for a healthy landscape. We design and install smart irrigation systems that deliver the right amount of water to each zone, reducing waste and keeping your plants thriving through every season.</p><h2>System Features</h2><ul><li>Smart controller with weather-based adjustments</li><li>Drip and spray zone design</li><li>Rain sensors and moisture monitors</li><li>Seasonal system maintenance</li><li>Winterization and spring start-up</li></ul>",
+            "summary": "Efficient watering is essential for a healthy landscape. We design and install smart irrigation systems that deliver the right amount of water to each zone, reducing waste and keeping your plants thri"
+          },
+          "summary": "Smart irrigation design, installation, and seasonal maintenance programs.",
+          "priceRange": "$3,000 - $12,000",
+          "duration": "3-5 days",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+            "alt": "Garden sprinkler system watering a green lawn",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

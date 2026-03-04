@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Evergreen Landscapes",
+          "path": "/homepage",
+          "heroTitle": "Transform Your Outdoor Space",
+          "heroSubtitle": "Professional Landscaping & Design Since 1999",
+          "heroDescription": {
+            "processed": "<p>From concept to completion, Evergreen Landscapes creates stunning outdoor environments that reflect your vision. Our team of certified designers and skilled craftsmen bring artistry and precision to every project.</p>",
+            "summary": "From concept to completion, Evergreen Landscapes creates stunning outdoor environments that reflect your vision. Our team of certified designers and skilled craftsmen bring artistry and precision to e"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "25+",
+              "label": "Years of Experience"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-projects",
+              "title": "",
+              "number": "3,200+",
+              "label": "Projects Completed"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-clients",
+              "title": "",
+              "number": "1,800+",
+              "label": "Happy Clients"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-awards",
+              "title": "",
+              "number": "14",
+              "label": "Industry Awards"
+            }
+          ],
+          "featuredItemsTitle": "Our Services",
+          "ctaTitle": "Ready to Transform Your Property?",
+          "ctaDescription": {
+            "processed": "<p>Schedule a free on-site consultation and let our design team show you what's possible. We'll walk your property, listen to your vision, and present a custom plan that fits your budget.</p>",
+            "summary": "Schedule a free on-site consultation and let our design team show you what's possible. We'll walk your property, listen to your vision, and present a custom plan that fits your budget."
+          },
+          "ctaPrimary": "Get a Free Quote",
+          "ctaSecondary": "View Our Work"
+        }
+      ]
+    }
+  }
+}

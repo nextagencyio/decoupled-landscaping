@@ -1,0 +1,245 @@
+{
+  "data": {
+    "nodeProjects": {
+      "__typename": "NodeProjectConnection",
+      "nodes": [
+        {
+          "__typename": "NodeProject",
+          "id": "project-estate-garden",
+          "title": "Willow Creek Estate Garden",
+          "path": "/projects/willow-creek-estate",
+          "body": {
+            "processed": "<p>A complete transformation of a two-acre estate property featuring formal gardens, a natural swimming pool, and extensive native plantings. The design integrates the existing mature oak trees with new garden rooms that unfold as visitors explore the grounds.</p><p>The project included a custom stone terrace with built-in seating, a cutting garden for fresh flowers, and a meditation garden with a Japanese-inspired water feature.</p>",
+            "summary": "A complete transformation of a two-acre estate property featuring formal gardens, a natural swimming pool, and extensive native plantings. The design integrates the existing mature oak trees with new "
+          },
+          "clientName": "The Henderson Family",
+          "location": "Westchester County, NY",
+          "projectType": "Full Estate Landscaping",
+          "completionDate": {
+            "timestamp": 1757912400
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+            "alt": "Expansive estate garden with manicured lawns and stone pathways",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "gallery": [
+            {
+              "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+              "alt": "Stone terrace with outdoor seating",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            },
+            {
+              "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80",
+              "alt": "Garden pathway lined with flowering plants",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "NodeProject",
+          "id": "project-rooftop",
+          "title": "Skyline Rooftop Garden",
+          "path": "/projects/skyline-rooftop-garden",
+          "body": {
+            "processed": "<p>An urban oasis built on a 4,000-square-foot commercial rooftop. We designed a wind-resistant planting scheme with drought-tolerant ornamental grasses, evergreen shrubs, and seasonal perennials in custom raised planters with integrated irrigation.</p><p>The space includes a dining area, a lounge with fire table, and a private garden nook. All plantings were selected for their tolerance to rooftop conditions including wind exposure and temperature extremes.</p>",
+            "summary": "An urban oasis built on a 4,000-square-foot commercial rooftop. We designed a wind-resistant planting scheme with drought-tolerant ornamental grasses, evergreen shrubs, and seasonal perennials in cust"
+          },
+          "clientName": "Metro Development Group",
+          "location": "Brooklyn, NY",
+          "projectType": "Rooftop Garden",
+          "completionDate": {
+            "timestamp": 1750395600
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+            "alt": "Rooftop garden with city skyline views",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "gallery": [
+            {
+              "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+              "alt": "Rooftop planters with ornamental grasses",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "NodeProject",
+          "id": "project-pool",
+          "title": "Cedar Ridge Pool Landscape",
+          "path": "/projects/cedar-ridge-pool-landscape",
+          "body": {
+            "processed": "<p>A resort-inspired pool surround featuring natural stone coping, a custom spa, and lush tropical plantings. The design created distinct zones for sunbathing, dining, and relaxation while maintaining privacy with strategic screening plants.</p><p>A pergola with climbing wisteria provides shade over the outdoor dining area, and landscape lighting extends the usability of the space well into the evening hours.</p>",
+            "summary": "A resort-inspired pool surround featuring natural stone coping, a custom spa, and lush tropical plantings. The design created distinct zones for sunbathing, dining, and relaxation while maintaining pr"
+          },
+          "clientName": "The Martins",
+          "location": "Greenwich, CT",
+          "projectType": "Pool & Patio Design",
+          "completionDate": {
+            "timestamp": 1753851600
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+            "alt": "Beautiful pool area surrounded by lush landscaping",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "gallery": [
+            {
+              "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+              "alt": "Evening view of illuminated pool landscape",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

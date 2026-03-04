@@ -1,0 +1,129 @@
+{
+  "data": {
+    "nodeTestimonials": {
+      "__typename": "NodeTestimonialConnection",
+      "nodes": [
+        {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-johnson",
+          "title": "A Backyard We Actually Use Now",
+          "path": "/testimonials/johnson-family",
+          "body": {
+            "processed": "<p>We had a boring flat yard that we never spent time in. Evergreen completely reimagined the space with a paver patio, fire pit area, and beautiful perennial borders. Now we're outside every evening. Our neighbors keep asking who did the work!</p>",
+            "summary": "We had a boring flat yard that we never spent time in. Evergreen completely reimagined the space with a paver patio, fire pit area, and beautiful perennial borders. Now we're outside every evening. Ou"
+          },
+          "clientName": "David & Lisa Johnson",
+          "clientLocation": "Stamford, CT",
+          "rating": 5,
+          "serviceReceived": "Full Backyard Renovation",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "David Johnson",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-chen",
+          "title": "Professional From Start to Finish",
+          "path": "/testimonials/chen-family",
+          "body": {
+            "processed": "<p>The design process was incredibly thorough. They showed us 3D renderings before starting, which really helped us visualize the final result. The crew was respectful of our property, cleaned up every day, and delivered exactly what was promised. Highly recommend their landscape design services.</p>",
+            "summary": "The design process was incredibly thorough. They showed us 3D renderings before starting, which really helped us visualize the final result. The crew was respectful of our property, cleaned up every d"
+          },
+          "clientName": "Michelle Chen",
+          "clientLocation": "Rye, NY",
+          "rating": 5,
+          "serviceReceived": "Landscape Design & Installation",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+            "alt": "Michelle Chen",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-murphy",
+          "title": "Our Lawn Has Never Looked Better",
+          "path": "/testimonials/murphy-residence",
+          "body": {
+            "processed": "<p>After years of struggling with bare patches and weeds, we signed up for Evergreen's maintenance plan. Within one season, our lawn was the greenest on the block. Their fertilization program and consistent care made all the difference. Worth every penny.</p>",
+            "summary": "After years of struggling with bare patches and weeds, we signed up for Evergreen's maintenance plan. Within one season, our lawn was the greenest on the block. Their fertilization program and consist"
+          },
+          "clientName": "Tom Murphy",
+          "clientLocation": "White Plains, NY",
+          "rating": 5,
+          "serviceReceived": "Lawn Care & Maintenance",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80",
+            "alt": "Tom Murphy",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
