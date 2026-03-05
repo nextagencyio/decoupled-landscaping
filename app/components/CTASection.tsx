@@ -29,7 +29,7 @@ export default function CTASection({ homepageContent }: CTASectionProps) {
         )}
         <div className="flex justify-center gap-4 flex-wrap">
           <a href="/contact" className="px-8 py-4 bg-accent-500 text-white rounded-full hover:bg-accent-400 transition-all duration-200 font-bold text-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5">{primaryLabel}</a>
-          <a href="/portfolio" className="px-8 py-4 border-2 border-white/40 text-white rounded-full hover:bg-white/10 transition-all duration-200 font-bold text-lg">{secondaryLabel}</a>
+          <a href="/projects" className="px-8 py-4 border-2 border-white/40 text-white rounded-full hover:bg-white/10 transition-all duration-200 font-bold text-lg">{secondaryLabel}</a>
         </div>
       </div>
     </section>

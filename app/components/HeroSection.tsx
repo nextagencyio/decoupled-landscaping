@@ -28,7 +28,7 @@ export default function HeroSection({ homepageContent }: HeroSectionProps) {
         {description && <div className="text-lg text-white/80 max-w-2xl mx-auto mb-10" dangerouslySetInnerHTML={{ __html: description }} />}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-primary-600 text-white rounded-full hover:bg-primary-700 transition-all duration-200 font-semibold text-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5">Get a Free Quote</a>
-          <a href="/portfolio" className="inline-flex items-center justify-center px-8 py-4 bg-white/20 backdrop-blur-sm text-white border-2 border-white/40 rounded-full hover:bg-white/30 transition-all duration-200 font-semibold text-lg">View Our Work</a>
+          <a href="/projects" className="inline-flex items-center justify-center px-8 py-4 bg-white/20 backdrop-blur-sm text-white border-2 border-white/40 rounded-full hover:bg-white/30 transition-all duration-200 font-semibold text-lg">View Our Work</a>
         </div>
       </div>
     </section>
