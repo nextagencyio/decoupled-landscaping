@@ -57,30 +57,26 @@ export interface DrupalPage extends DrupalNode {
   }
 }
 
+export interface DrupalStatItem {
+  id: string
+  number?: string
+  label?: string
+}
+
 export interface DrupalHomepage extends DrupalNode {
   heroTitle?: string
   heroSubtitle?: string
   heroDescription?: {
     processed: string
   }
-  featuresTitle?: string
-  featuresSubtitle?: string
-  featuresItems?: DrupalFeature[]
+  statsItems?: DrupalStatItem[]
+  featuredItemsTitle?: string
   ctaTitle?: string
   ctaDescription?: {
     processed: string
   }
   ctaPrimary?: string
   ctaSecondary?: string
-}
-
-export interface DrupalFeature {
-  id: string
-  title: string
-  description?: {
-    processed: string
-  }
-  icon?: string
 }
 
 export interface HomepageData {

@@ -89,3 +89,12 @@ storybook-static
 # Temporary folders
 tmp/
 temp/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Generated schema (env-specific)
+schema/schema.graphql
+schema/introspection.json
+schema/types.ts
